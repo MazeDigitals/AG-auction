@@ -80,7 +80,14 @@ span.localDate span {
 }
 
 .hdr-disp ul li a {
-  background-image: linear-gradient( to bottom, #ffffff, #f8f8f8, #f0f1f2, #e9eaeb, #e1e3e4 );
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #f8f8f8,
+    #f0f1f2,
+    #e9eaeb,
+    #e1e3e4
+  );
   color: #7b7979;
   display: block;
   text-decoration: none;
@@ -101,7 +108,14 @@ span.localDate span {
 }
 
 .hdr-btns ul a {
-  background-image: linear-gradient( to bottom, #ffffff, #f8f8f8, #f0f1f2, #e9eaeb, #e1e3e4 );
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #f8f8f8,
+    #f0f1f2,
+    #e9eaeb,
+    #e1e3e4
+  );
   color: #7b7979;
   display: block;
   text-decoration: none;
@@ -345,7 +359,8 @@ ul.f-social {
 }
 
 .web-nav ul li img {
-  width: 50px;
+  max-width: 50px;
+  max-height: 50px;
 }
 
 .web-nav ul li a {
@@ -378,14 +393,19 @@ ul.f-social {
 .web-nav ul li:last-child a {
   border-right: none;
 }
+.web-nav ul li:last-child a img {
+  filter: invert(1);
+}
 
-.web-nav ul li a:hover {
+.web-nav ul li a:hover,
+.web-nav ul li:last-child a:hover img {
   background-color: #ffffffb3;
 }
 
 .web-nav ul li a:hover img {
   filter: invert(1);
 }
+/* .web-nav ul li:last-child a:hover img */
 
 /* Navigation Css End */
 /* Car Auction Page Css Start */
@@ -402,7 +422,14 @@ ul.f-social {
 }
 
 .exp-serv-btn a {
-  background-image: linear-gradient(to bottom, #ffffff, #f8f8f8, #f0f1f2, #e9eaeb, #e1e3e4);
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #f8f8f8,
+    #f0f1f2,
+    #e9eaeb,
+    #e1e3e4
+  );
   color: #7b7979;
   display: block;
   text-decoration: none;
@@ -417,8 +444,15 @@ ul.f-social {
   letter-spacing: 1px;
 }
 
-.ctgr-serv-btn a, .srch-serv-btn button {
-  background-image: -webkit-gradient(linear,left top,left bottom,from(#0c83d8),to(#1047ad));
+.ctgr-serv-btn a,
+.srch-serv-btn button {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#0c83d8),
+    to(#1047ad)
+  );
   color: #fff;
   display: block;
   text-decoration: none;
@@ -448,7 +482,9 @@ ul.f-social {
   padding: 12px 12px 8px;
 }
 
-.filter-btns a:hover, .filter-btns a.active, .filter-btns button:hover {
+.filter-btns a:hover,
+.filter-btns a.active,
+.filter-btns button:hover {
   background-color: #87c529;
   background-image: none;
   border-color: #87c529;
@@ -498,7 +534,7 @@ ul.f-social {
   align-items: center;
   justify-content: center;
   justify-content: space-between;
-  background-image: url('./images/sortBG.png');
+  background-image: url("./images/sortBG.png");
   padding: 10px 12px;
   background-size: contain;
 }
@@ -513,12 +549,21 @@ ul.f-social {
   color: #e0dfdc;
   border: solid 1px #5b5c5e;
   background: #7f7a6c;
-  background: -webkit-gradient(linear,left top,left bottom,from(#b0aca6),to(#7f7a6c));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#b0aca6),
+    to(#7f7a6c)
+  );
   font-size: 12px;
   margin: 0 2px;
 }
 
-.prod-fltr button:hover, .prod-fltr button.active, .pgnation-blk button:hover, .pgnation-blk button.active {
+.prod-fltr button:hover,
+.prod-fltr button.active,
+.pgnation-blk button:hover,
+.pgnation-blk button.active {
   background-color: #87c529;
   background-image: none;
   border-color: #87c529;
@@ -573,7 +618,7 @@ ul.f-social {
 
 .prod-tbl {
   display: flex;
-  background-image: url('./images/sortBG.png');
+  background-image: url("./images/sortBG.png");
   background-size: contain;
   border-radius: 10px;
   overflow: hidden;
@@ -618,7 +663,13 @@ ul.f-social {
   text-decoration: none;
   text-align: center;
   padding: 3px 10px;
-  background-image: -webkit-gradient(linear,left top,left bottom,from(#0c83d8),to(#1047ad));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#0c83d8),
+    to(#1047ad)
+  );
   border: solid 1px #1b3e8b;
   border-radius: 5px;
   margin-top: 8px;
@@ -753,7 +804,14 @@ span.img-quant {
 /* Car Auction Page Css End */
 /* Contact Page Css Start */
 .vert-Tabs .vert-Tabs-btns a {
-  background-image: linear-gradient( to bottom, #ffffff, #f8f8f8, #f0f1f2, #e9eaeb, #e1e3e4 ) !important;
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #f8f8f8,
+    #f0f1f2,
+    #e9eaeb,
+    #e1e3e4
+  ) !important;
   color: #7b7979 !important;
   display: block;
   text-decoration: none;
@@ -862,15 +920,20 @@ tbody.bank-details tr:nth-child(2n) {
   width: 93%;
 }
 
-
-
 .about .heading h3 {
   color: #87c529;
   margin-right: 8px;
 }
 
 .about .heading {
-  background-image: linear-gradient( to bottom, #ffffff, #f8f8f8, #f0f1f2, #e9eaeb, #e1e3e4 );
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #f8f8f8,
+    #f0f1f2,
+    #e9eaeb,
+    #e1e3e4
+  );
   color: #87c529;
   padding: 4px 12px;
   border-radius: 4px;
@@ -957,7 +1020,13 @@ p.socio-resp {
   color: #5f6060;
   border: solid 1px #ccc;
   text-shadow: 0 0 0 rgb(0 0 0 / 20%);
-  background: -webkit-gradient(linear,left top,left bottom,from(#ffffff),to(#e0e2e3));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ffffff),
+    to(#e0e2e3)
+  );
 }
 
 .property-faq-btn a:hover {
@@ -969,7 +1038,15 @@ p.socio-resp {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-image: linear-gradient(to bottom, #ffffff, #ffffff, #FFFFFF, #ffffff, #ded7d9, #bab3ac);
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #ffffff,
+    #ffffff,
+    #ffffff,
+    #ded7d9,
+    #bab3ac
+  );
   padding: 10px;
 }
 
@@ -1108,7 +1185,21 @@ p.socio-resp {
 }
 
 .prop-tableline {
-  background-image: linear-gradient(to bottom, #ffffff, #fafafa, #f6f4f5, #f1efef, #eceae9, #e8e7e5, #e5e3e2, #e1e0de, #dfdedc, #dddcd9, #dcdad7, #dad8d5);
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #fafafa,
+    #f6f4f5,
+    #f1efef,
+    #eceae9,
+    #e8e7e5,
+    #e5e3e2,
+    #e1e0de,
+    #dfdedc,
+    #dddcd9,
+    #dcdad7,
+    #dad8d5
+  );
 }
 
 .pr-time-st {
@@ -1165,7 +1256,7 @@ p.socio-resp {
 }
 
 .prop-circ:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 30px;
   height: 30px;
@@ -1221,15 +1312,15 @@ p.socio-resp {
 }
 /* ---------PROPERTY PAGE END---------- */
 
-
 /* ---------PROPERTY DETAILS PAGE START---------- */
 .construc-prop img {
   width: 100%;
   object-fit: cover;
   height: 240px;
 }
-.property-sl .slick-prev:before, .slick-next:before {
-  font-family: 'slick';
+.property-sl .slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
   font-size: 25px !important;
   line-height: 1;
   z-index: 999 !important;
@@ -1245,8 +1336,8 @@ p.socio-resp {
   left: 12px;
   z-index: 9;
 }
-.property-sl  .slick-dots li {
-  display: none; 
+.property-sl .slick-dots li {
+  display: none;
 }
 .des-prob-heading h5 {
   color: #ff0000;
@@ -1338,7 +1429,6 @@ p.socio-resp {
 }
 
 /* ---------PROPERTY DETAILS PAGE END---------- */
-
 
 /* Contact Page Css Start */
 .vert-Tabs .vert-Tabs-btns a {
@@ -1475,7 +1565,6 @@ p.socio-resp {
 }
 /* Contact Page Css End */
 
-
 /* car details */
 .car-title {
   text-align: end;
@@ -1529,13 +1618,13 @@ p.socio-resp {
   border: 1px solid #000;
 }
 
-.cardetailsdown .disc-sec  .note{
-    text-align: center;
-    padding: 6px 6px;
-    line-height: 13px;
-    font-size: 11px;
+.cardetailsdown .disc-sec .note {
+  text-align: center;
+  padding: 6px 6px;
+  line-height: 13px;
+  font-size: 11px;
 }
-.car-details  .other-vehicles .slick-slide img {
+.car-details .other-vehicles .slick-slide img {
   display: block;
   height: 84px;
   width: 90%;
@@ -1544,7 +1633,6 @@ p.socio-resp {
 .car-details .other-vehicles {
   background-color: #e0e0e0;
   margin: 0 12px;
-  
 }
 .car-details .other-vehicles .title {
   background-color: #fff;
@@ -1552,7 +1640,7 @@ p.socio-resp {
   padding: 0 0 0 13px;
   font-size: 13px;
 }
-.car-details .other-vehicles .slider-sec{
+.car-details .other-vehicles .slider-sec {
   padding: 0 41px;
 }
 .car-details .term-condition-sec {
@@ -1574,7 +1662,7 @@ p.socio-resp {
   font-weight: 600;
 }
 .term-condition-sec .heading p {
-  color:#a01414;
+  color: #a01414;
   font-weight: 600;
   margin: 22px 0 0 12px;
 }
@@ -1595,7 +1683,7 @@ p.socio-resp {
   background-color: #ffffffbf;
 }
 .other-vehicles .slick-prev:before {
-  background-image: url('./images/left-arrow.png');
+  background-image: url("./images/left-arrow.png");
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
@@ -1607,8 +1695,8 @@ p.socio-resp {
 .other-vehicles .slick-next:before {
   display: none;
 }
-.other-vehicles .slick-next::after { 
-  background-image: url('./images/right-arrow.png');
+.other-vehicles .slick-next::after {
+  background-image: url("./images/right-arrow.png");
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
@@ -1616,7 +1704,7 @@ p.socio-resp {
   height: 106px;
   left: 10px;
   top: -51px;
-  content: '';
+  content: "";
 }
 
 .slider-sync .slide-img img {
@@ -1624,12 +1712,12 @@ p.socio-resp {
   height: 397px;
   border: 1px solid #000;
 }
-.slider-sync  .slick-prev:before {
+.slider-sync .slick-prev:before {
   position: absolute;
   left: 38px;
   z-index: 2;
 }
-.slider-sync  .slick-next:before{
+.slider-sync .slick-next:before {
   position: absolute;
   left: -74px;
   z-index: 2;
@@ -1651,11 +1739,10 @@ figcaption {
   padding: 5px 0 0px 0;
   transition: 0.5s;
 }
-.slider-sync .slide-img:hover figcaption  {
+.slider-sync .slide-img:hover figcaption {
   height: 100%;
 }
 /* car details */
-
 
 /* faq */
 .faqs-sec a {
@@ -1666,7 +1753,7 @@ figcaption {
 .faqs-sec a img {
   margin-right: 11px;
 }
-.detailed-FAQs-sec  .question {
+.detailed-FAQs-sec .question {
   display: flex;
   align-items: baseline;
 }
@@ -1705,7 +1792,7 @@ figcaption {
   width: 50%;
   padding: 7px 0;
 }
-.Faq-form-sec  input[type="text"] {
+.Faq-form-sec input[type="text"] {
   height: 23px;
 }
 .Faq-form-sec .note {
@@ -1715,10 +1802,16 @@ figcaption {
 }
 /* faq */
 
-
 /* Timer Css Start */
 .timer-home div {
-  background-image: linear-gradient(to top, #000000, #161516, #232225, #303135, #3c4145);
+  background-image: linear-gradient(
+    to top,
+    #000000,
+    #161516,
+    #232225,
+    #303135,
+    #3c4145
+  );
   height: 32px;
   padding-top: 5px;
   min-width: 36px;
@@ -1729,7 +1822,7 @@ figcaption {
   border-radius: 3px;
 }
 .timer-home div::before {
-  content: '';
+  content: "";
   height: 2px;
   width: 100%;
   position: absolute;
@@ -1746,7 +1839,6 @@ figcaption {
   top: 5px;
 }
 
-
 /* --------REGISTER PAGE START-------- */
 .pers-form .form-control {
   display: block;
@@ -1762,7 +1854,7 @@ figcaption {
   -webkit-appearance: none;
   appearance: none;
   border-radius: 0.25rem;
-  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .lab-inp {
   display: flex;
@@ -1864,9 +1956,8 @@ figcaption {
 }
 .regcapt-content p {
   font-size: 12px;
-
 }
-.regcapt-content  {
+.regcapt-content {
   margin-left: 21%;
   margin-top: 25px;
 }
@@ -1921,7 +2012,21 @@ figcaption {
   margin-right: 3px;
 }
 .reg-main-heading {
-  background-image: linear-gradient(to bottom, #ffffff, #fafafa, #f6f4f5, #f1efef, #eceae9, #e8e7e5, #e5e3e2, #e1e0de, #dfdedc, #dddcd9, #dcdad7, #dad8d5);
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #fafafa,
+    #f6f4f5,
+    #f1efef,
+    #eceae9,
+    #e8e7e5,
+    #e5e3e2,
+    #e1e0de,
+    #dfdedc,
+    #dddcd9,
+    #dcdad7,
+    #dad8d5
+  );
   padding: 0px 10px;
   margin: 9px 0;
 }
@@ -1930,7 +2035,6 @@ figcaption {
   font-weight: 800;
   color: #e61400;
 }
-
 
 /* ------------DETAIL BOX STYLE START------------- */
 .dtl-current-pr {
@@ -2037,7 +2141,21 @@ figcaption {
   padding: 4px 3px;
 }
 .cr-detail-bxall {
-  background-image: linear-gradient(to bottom, #ffffff, #fafafa, #f6f4f5, #f1efef, #eceae9, #e8e7e5, #e5e3e2, #e1e0de, #dfdedc, #dddcd9, #dcdad7, #dad8d5);
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #fafafa,
+    #f6f4f5,
+    #f1efef,
+    #eceae9,
+    #e8e7e5,
+    #e5e3e2,
+    #e1e0de,
+    #dfdedc,
+    #dddcd9,
+    #dcdad7,
+    #dad8d5
+  );
 }
 .cr-detail-bxall .row {
   justify-content: center;
@@ -2046,7 +2164,21 @@ figcaption {
 
 /* ------------DASHBOARD MY PROFILE PAGE START------------ */
 .myprofile-btn-gr li a {
-  background-image: linear-gradient(to bottom, #ffffff, #fafafa, #f6f4f5, #f1efef, #eceae9, #e8e7e5, #e5e3e2, #e1e0de, #dfdedc, #dddcd9, #dcdad7, #dad8d5);
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #fafafa,
+    #f6f4f5,
+    #f1efef,
+    #eceae9,
+    #e8e7e5,
+    #e5e3e2,
+    #e1e0de,
+    #dfdedc,
+    #dddcd9,
+    #dcdad7,
+    #dad8d5
+  );
   width: 100%;
   display: inline-block;
   padding: 7px 10px;
@@ -2172,15 +2304,13 @@ figcaption {
 }
 
 .deposit-tabsec:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 13px;
   background: #b5baba;
   top: 127px;
 }
-
-
 
 .bank-list {
   display: flex;
@@ -2225,7 +2355,7 @@ figcaption {
   width: 120%;
 }
 .bank-depoi img {
-  width: auto;  
+  width: auto;
   border: 1px solid #87c529;
   padding: 5px;
 }
@@ -2240,7 +2370,6 @@ figcaption {
 .dep-chsen input {
   background: transparent;
 }
-
 
 .bank-from {
   display: flex;
@@ -2258,7 +2387,7 @@ figcaption {
 }
 
 .emfax:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 1px;
   height: 184px;
@@ -2272,7 +2401,7 @@ figcaption {
 .bank-chequ-map iframe {
   width: 100%;
   height: 280px;
-} 
+}
 .bank-card {
   display: flex;
   align-items: center;
@@ -2341,7 +2470,14 @@ figcaption {
 }
 
 .watch-cont button {
-  background-image: linear-gradient( to bottom, #ffffff, #f8f8f8, #f0f1f2, #e9eaeb, #e1e3e4 );
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #f8f8f8,
+    #f0f1f2,
+    #e9eaeb,
+    #e1e3e4
+  );
   border: transparent;
   width: 160px;
   padding: 4px;
@@ -2415,7 +2551,7 @@ figcaption {
 }
 
 .bid-tab .nav-item .gen-cir:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 15px;
   height: 15px;
@@ -2431,7 +2567,7 @@ figcaption {
 }
 
 .bid-tab .nav-item .red-cir:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 15px;
   height: 15px;
@@ -2467,7 +2603,7 @@ figcaption {
 }
 
 .cr-win:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 10px;
@@ -2485,14 +2621,13 @@ figcaption {
   border-radius: 0 !important;
   text-align: left !important;
   box-shadow: none !important;
-  border-bottom:1px solid;
-  
+  border-bottom: 1px solid;
 }
 .pfr-my a:last-child {
   border: none;
   color: #e63566;
 }
-.pfr-my a:hover{
+.pfr-my a:hover {
   color: #000;
 }
 .pfr-my .btn-success {
@@ -2536,7 +2671,7 @@ figcaption {
   width: 250px;
 }
 .pronal-info-in li {
-  color: #7F7F7F;
+  color: #7f7f7f;
   margin-bottom: 5px;
   font-size: 14px;
 }
@@ -2547,7 +2682,7 @@ figcaption {
 .prof-lang input {
   width: 15px !important;
   height: 15px;
-  border-color: #989898 !IMPORTANT;
+  border-color: #989898 !important;
 }
 
 .pronal-info-in li small {
@@ -2579,7 +2714,6 @@ figcaption {
   border: none !important;
 }
 /* ------------DASHBOARD MY PROFILE PAGE END------------ */
-
 
 @media only screen and (max-width: 1399px) {
 }

@@ -1,4 +1,3 @@
-
 import ReactDOM, { render } from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -11,14 +10,13 @@ import Header from "./Extends/Header";
 import Footer from "./Extends/Footer";
 import reportWebVitals from "./reportWebVitals";
 
-
 // IMPORT PAGES
 import About from "./Views/About/Index";
 
 import ScrollToTop from "./Views/ScrollToTop/Index";
 // import { Form } from "react-bootstrap/lib/Navbar";
 import Carauction from "./Views/Carauction";
-import CarDetails from './Views/CarDetails/index';
+import CarDetails from "./Views/CarDetails/index";
 import Property from "./Views/Property/index";
 import Contactus from "./Views/Contactus/index";
 import Propertydetails from "./Views/Propertydetails/index";
@@ -38,10 +36,8 @@ import Addressupdate from "./Views/Dashboard/Addressupdate/index";
 import Trafficfile from "./Views/Dashboard/Trafficfile/index";
 import Communication from "./Views/Dashboard/Communication/index";
 import Document from "./Views/Dashboard/Document/index";
-
-
-
-
+import NumberPlate from "./Views/NumberPlate";
+import MobilePhone from "./Views/MobilePhone";
 
 // NEW
 function Main() {
@@ -51,15 +47,16 @@ function Main() {
         <Header />
       </header>
 
-    
       <ScrollToTop />
-      
+
       <Routes>
         <Route path="/" element={<App />} />
-        
-        <Route path="/aboutus" element={<About/>} />
-       
+
+        <Route path="/aboutus" element={<About />} />
+
         <Route path="/carauction" element={<Carauction />} />
+        <Route path="/number-plate" element={<NumberPlate />} />
+        <Route path="/mobile-phone" element={<MobilePhone />} />
         <Route path="/property" element={<Property />} />
         <Route path="/car-details" element={<CarDetails />} />
         <Route path="/contactus" element={<Contactus />} />
@@ -68,14 +65,11 @@ function Main() {
         <Route path="/signin" element={<Signin />} />
         <Route path="/termscondition" element={<Termscondition />} />
 
-        
-
         <Route path="/carsdeposits" element={<Carsdeposits />} />
         <Route path="/myprofile" element={<Myprofile />} />
         <Route path="/changepassword" element={<Changepassword />} />
 
         <Route path="/cars" element={<Cars />} />
-
 
         <Route path="/profileupdate" element={<Profileupdate />} />
 
@@ -90,12 +84,7 @@ function Main() {
 
         <Route path="/document" element={<Document />} />
 
-     
-
-
         <Route path="/FAQ" element={<FAQ />} />
-      
-
       </Routes>
       <footer>
         <Footer />
